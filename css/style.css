@@ -256,5 +256,7 @@ ui{
   z-index: 9999;
   box-shadow: 0px 4px 4px 0px #2B2D42;
 }
-
+a:hover{
+  cursor:pointer;
+}
 
