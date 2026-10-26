@@ -26,35 +26,39 @@
         <form>
             <div class="form-group">
                 <label for="book-name">Book Name</label>
-                <input type="text" id="book-name" placeholder="Enter the book title" required>
+                <input name="book-name" type="text" id="book-name" placeholder="Enter the book title" required>
             </div>
 
             <div class="form-group">
                 <label for="book-genre">Book Genre</label>
-                <input type="text" id="book-name" placeholder="Enter the book genre">
+                <input name="book-genre" type="text" id="book-name" placeholder="Enter the book genre">
             </div>
 
             <div class="form-group">
                 <label for="book-author">Book Author</label>
-                <input type="text" id="book-name" placeholder="Enter the book author">
+                <input name="book-author" type="text" id="book-author" placeholder="Enter the book author">
             </div>
             
             <div class="form-group">
                 <label for="poster-url">Poster URL</label>
-                <input type="url" id="poster-url" placeholder="Paste image URL (jpg or png)">
+                <input name="poster-url" type="url" id="poster-url" placeholder="Paste image URL (jpg or png)">
             </div>
             <div class="form-row">
                 
 
     <div class="form-group">
         <label for="watched-date">Readed Date</label>
-        <input type="date" id="watched-date">
+        <input name="readed-date" type="date" id="watched-date">
     </div>
 
+     <div class="form-group">
+        <label for="rating-number">Readed Date</label>
+        < name="rating-number" type="date" id="rating-number" placeholder="place ">
+    </div>
 
     <div class="form-group">
         <label for="rating-select">Stars</label>
-        <select id="rating-select" required>
+        <select name="book-rating" id="rating-select" required>
             <option value="">Choose a rating</option>
             <option value="1">★☆☆☆☆ - 1 Star</option>
             <option value="2">★★☆☆☆ - 2 Stars</option>
@@ -66,9 +70,9 @@
 </div>
 <div class="form-group">
     <label for="review-text">My Review</label>
-    <textarea required id="review-text" rows="5" placeholder="Write your thoughts here..."></textarea>
+    <textarea name="review-text" required id="review-text" rows="5" placeholder="Write your thoughts here..."></textarea>
 </div>
-<button type="submit" class="submit-button">Add</button>
+<button name="add" type="submit" class="submit-button">Add (dont really add, read the yellow box)</button>
         </form>
     </div>
 </div>
