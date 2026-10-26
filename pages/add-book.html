@@ -7,9 +7,6 @@
     <title>My Book Library - Add New Review</title>
 </head>
 <body>
-    <ui>
-        <span>This demo uses fictitious data, does not save reviews, does not add books or load covers, and the button does not suggest registration.</span>
-    </ui>
     <header>
        <div>
             <a href="../index.html" >
@@ -17,6 +14,11 @@
                 <span>MLib</span>
             </a>
        </div>
+       <nav>
+        <a href="../pages/add-book.html">
+        <button class="add-button" aria-label="Add new book review">+</button>
+        </a>
+       </nav>
     </header>
     <main>
          <div class="form-page-container">
@@ -31,7 +33,7 @@
 
             <div class="form-group">
                 <label for="book-genre">Book Genre</label>
-                <input name="book-genre" type="text" id="book-name" placeholder="Enter the book genre">
+                <input name="book-genre" type="text" id="book-genre" placeholder="Enter the book genre">
             </div>
 
             <div class="form-group">
@@ -51,20 +53,15 @@
         <input name="readed-date" type="date" id="watched-date">
     </div>
 
-     <div class="form-group">
-        <label for="rating-number">Number review and why</label>
-        <input name="rating-number" type="text" id="rating-number" placeholder="Number 0-10 and why ">
-    </div>
-
     <div class="form-group">
-        <label for="rating-select">Stars</label>
+        <label for="rating-select">Rating</label>
         <select name="book-rating" id="rating-select" required>
             <option value="">Choose a rating</option>
-            <option value="1">★☆☆☆☆ - 1/5</option>
-            <option value="2">★★☆☆☆ - 2/5</option>
-            <option value="3">★★★☆☆ - 3/5</option>
-            <option value="4">★★★★☆ - 4/5</option>
-            <option value="5">★★★★★ - 5/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
         </select>
     </div>
 </div>
@@ -72,7 +69,7 @@
     <label for="review-text">My Review</label>
     <textarea name="review-text" required id="review-text" rows="5" placeholder="Write your thoughts here..."></textarea>
 </div>
-<button name="add" type="submit" class="submit-button">Add (dont really add, read the yellow box)</button>
+<button name="add" type="submit" class="submit-button">Add (dont really add, read bellow)</button>
         </form>
     </div>
 </div>
@@ -80,6 +77,7 @@
     </main>
     
     <footer>
+         <strong>This demo uses fictitious data, does not save reviews, does not add books or load covers, and the button does not suggest registration.</strong>
         <p>&copy; 2025 MLib &ndash; My book Library</p>
     </footer>
 
