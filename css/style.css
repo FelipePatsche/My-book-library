@@ -194,7 +194,7 @@ transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 15vh 0;
+  margin: 5vh 0;
   margin-right: 10%;
 }
 .review-box p, .review-box span{
